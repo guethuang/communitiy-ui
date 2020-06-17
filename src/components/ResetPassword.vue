@@ -68,7 +68,7 @@ export default {
 </script>
 <!--如何改变饿了么的样式-->
 <!--方法去掉SCoped 并且找到个样式的默认class-->
-<style  lang="less">
+<style scoped lang="less">
   .header {
     width: 100%;
     height: 48px;
