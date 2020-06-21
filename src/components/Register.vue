@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
+<style scoped >
   .header {
     width: 100%;
     height: 48px;
@@ -71,6 +71,7 @@ export default {
   }
   .statement {
     line-height: 0px;
+    font-size: 12px;
   }
   .register_name {
     text-align: center;

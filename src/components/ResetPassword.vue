@@ -68,17 +68,16 @@ export default {
 </script>
 <!--如何改变饿了么的样式-->
 <!--方法去掉SCoped 并且找到个样式的默认class-->
-<style scoped lang="less">
+<style scoped >
   .header {
     width: 100%;
     height: 48px;
     padding: 16px 16px 16px 16px;
     border: 1px solid #e1e1e1;
   }
-  @color: #e1e1e1 ;
-  @width: 982px;
+
 .reset_box {
-  width: @width;
+  width: 982px;
   height: 441px;
   border: 1px solid #e7e7e7;
   border-top: 1px solid #409eff;
