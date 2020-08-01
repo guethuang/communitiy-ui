@@ -1,0 +1,42 @@
+@media screen and (max-width: 1087px) {
+    .navbar > .container {
+        /*嵌入方式优先级大于导入方式,所以当嵌入方式存在了，需要提高优先级*/
+        display: block!important;
+    }
+    .navbar-main .navbar-menu {
+        justify-content: center;
+        box-shadow: none;
+    }
+    .navbar-menu {
+        background-color: #fff;
+        box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+        padding: 0.07rem 0;
+    }
+    .navbar-main .navbar-start {
+        margin-right: 0!important;
+    }
+    .navbar-main .navbar-end {
+        margin-left: 0!important;
+    }
+}
+@media screen and (min-width: 1088px) {
+    .container {
+      max-width: 960px;
+           }
+    .navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
+        margin-left: -0.105rem;
+    }
+    .column.is-4-desktop {
+        flex: none;
+        width: 33.33333%;
+    }
+        .column.is-8-desktop {
+            flex: none;
+            width: 66.66667%;
+        }
+    .column.is-4-desktop {
+        flex: none;
+        width: 33.33333%;
+    }
+
+}

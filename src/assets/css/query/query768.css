@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (min-width: 769px){
+
+}
+
+@media screen and (min-width: 769px), print {
+    .column.is-4, .column.is-4-tablet {
+        flex: none;
+        width: 33.33333%;
+    }
+    .level > .level-item:not(.is-narrow) {
+        flex-grow: 1;
+    }
+    .is-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 1.5rem;
+        z-index: 99;
+    }
+    .columns:not(.is-desktop) {
+        display: flex;
+    }
+    .column-main.is-sticky, .column-left.is-sticky, .column-right.is-sticky, .column-right-shadow.is-sticky {
+        top: 0.75rem;
+        align-self: flex-start;
+    }
+    .column.is-8, .column.is-8-tablet {
+        flex: none;
+        width: 66.66667%;
+    }
+    .column.is-4, .column.is-4-tablet {
+        flex: none;
+        width: 33.33333%;
+    }
+    .level {
+        display: flex;
+      }
+      .pagination {
+        justify-content: space-between;
+    }
+    .pagination.is-centered .pagination-previous {
+        order: 1;
+    }
+    .pagination-previous {
+        order: 2;
+    }
+    .pagination.is-centered .pagination-next {
+        order: 3;
+    }
+    .pagination-next {
+        order: 3;
+    }
+    .pagination.is-centered .pagination-list {
+        justify-content: center;
+        order: 2;
+    }
+    .pagination-list {
+        flex-grow: 1;
+        flex-shrink: 1;
+        justify-content: flex-start;
+        order: 1;
+    }
+}
+@media screen and (max-width: 1279px) and (min-width: 1088px){
+    .is-hidden-desktop-only {
+        display: none !important;
+    }
+}

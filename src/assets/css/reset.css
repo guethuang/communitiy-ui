@@ -32,7 +32,6 @@ img, video {
 iframe {
   border: 0;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -40,11 +39,6 @@ table {
 
 td, th {
   padding: 0;
-}
-
-td:not([align]),
-th:not([align]) {
-  text-align: left;
 }
 
 html {
@@ -82,7 +76,7 @@ body {
   font-weight: 400;
   /*这只是一个相对值，也就是说，它相当于设置样式为1.5倍的行高。
 如你的补充提问：我们初始设font-size:12px;　那么line-height:1.5; 就相当于12*1.5＝18px;*/
-  line-height: 0.18;
+  line-height: 1.5;
 }
 
 a {
