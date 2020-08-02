@@ -1,0 +1,25 @@
+$body-size:14px;
+$body-background-color:#f7f7f7;
+$family-sans-serif : Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif;
+$family-code : 'Source Code Pro', monospace, 'Microsoft YaHei';
+
+
+$shadow : 0 4px 10px rgba(0, 0, 0, 0.05);
+
+$logo-height : .245rem;
+
+
+@import  '../../../node_modules/bulma/sass/utilities/initial-variables';
+@import  '../../../node_modules/bulma/sass/utilities/functions';
+@import   '../../../node_modules/bulma/sass/utilities/derived-variables';
+
+
+@import  '../../../node_modules/bulma/sass/utilities/animations';
+@import '../../../node_modules/bulma/sass/utilities/mixins';
+@import  '../../../node_modules/bulma/sass/utilities/controls';
+@import  '../../../node_modules/bulma/sass/base/_all';
+@import  '../../../node_modules/bulma/sass/components/_all';
+@import  '../../../node_modules/bulma/sass/elements/_all';
+@import  '../../../node_modules/bulma/sass/form/_all';
+@import  '../../../node_modules/bulma/sass/grid/_all';
+@import  '../../../node_modules/bulma/sass/layout/_all';
